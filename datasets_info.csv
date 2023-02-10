@@ -1,0 +1,27 @@
+index,Dataset Name,Bacteria_name,Antibiotic Name,Number of Rows,Number of columns,Resistant isolates count,Susceptible isolates count
+0,KP_meropenem.csv,Klebsiella pneumoniae,meropenem,682,366,418,264
+1,KP_ciprofloxacin.csv,Klebsiella pneumoniae,ciprofloxacin,649,366,452,197
+2,KP_amoxicillin-clavulanic acid.csv,Klebsiella pneumoniae,amoxicillin-clavulanic acid,333,276,315,18
+3,KP_gentamicin.csv,Klebsiella pneumoniae,gentamicin,647,365,280,367
+4,KP_imipenem.csv,Klebsiella pneumoniae,imipenem,591,354,390,201
+5,KP_ertapenem.csv,Klebsiella pneumoniae,ertapenem,697,372,492,205
+6,EcS_meropenem.csv,E.coli and Shigella,meropenem,5816,370,75,5741
+7,EcS_ciprofloxacin.csv,E.coli and Shigella,ciprofloxacin,6004,373,969,5035
+8,EcS_amoxicillin-clavulanic acid.csv,E.coli and Shigella,amoxicillin-clavulanic acid,4930,294,366,4562
+9,EcS_gentamicin.csv,E.coli and Shigella,gentamicin,5863,373,725,5138
+10,EcS_imipenem.csv,E.coli and Shigella,imipenem,2852,302,61,2791
+11,EcS_ertapenem.csv,E.coli and Shigella,ertapenem,2901,300,105,2796
+12,EcS_azithromycin.csv,E.coli and Shigella,azithromycin,3319,241,36,3283
+13,SE_meropenem.csv,Salmonella enterica,meropenem,3835,168,1,3834
+14,SE_ciprofloxacin.csv,Salmonella enterica,ciprofloxacin,8477,209,438,8039
+15,SE_amoxicillin-clavulanic acid.csv,Salmonella enterica,amoxicillin-clavulanic acid,7973,207,875,7098
+16,SE_gentamicin.csv,Salmonella enterica,gentamicin,8395,216,829,7566
+17,SE_azithromycin.csv,Salmonella enterica,azithromycin,5836,198,8,5828
+18,AB_meropenem.csv,Acinetobacter baumannii,meropenem,672,287,327,345
+19,AB_ciprofloxacin.csv,Acinetobacter baumannii,ciprofloxacin,1070,312,833,237
+20,AB_gentamicin.csv,Acinetobacter baumannii,gentamicin,1049,310,835,214
+21,AB_imipenem.csv,Acinetobacter baumannii,imipenem,1068,315,377,691
+22,CJ_ciprofloxacin.csv,Campylobacter jejuni,ciprofloxacin,3498,76,729,2769
+23,CJ_amoxicillin-clavulanic acid.csv,Campylobacter jejuni,amoxicillin-clavulanic acid,163,29,0,163
+24,CJ_gentamicin.csv,Campylobacter jejuni,gentamicin,3491,74,30,3461
+25,CJ_azithromycin.csv,Campylobacter jejuni,azithromycin,3328,69,76,3252
