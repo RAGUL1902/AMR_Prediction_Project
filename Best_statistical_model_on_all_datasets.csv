@@ -1,22 +1,22 @@
 ,Dataset Name,Bacteria Name,Antibiotic Name,Train set size,Susceptible,Resistant,Test set size,Susceptible,Resistant,Best Performing Classifier,Best F1 Score,Recall,Precision
-0,KP_meropenem.csv,Klebsiella pneumoniae,meropenem,511,198,313,171,66,105,BC,0.881,0.876,0.888
+0,KP_meropenem.csv,Klebsiella pneumoniae,meropenem,511,198,313,171,66,105,LogR,0.868,0.878,0.863
 1,KP_ciprofloxacin.csv,Klebsiella pneumoniae,ciprofloxacin,486,148,338,163,49,114,RF,0.943,0.953,0.934
 2,KP_amoxicillin-clavulanic acid.csv,Klebsiella pneumoniae,amoxicillin-clavulanic acid,249,13,236,84,5,79,ABC,0.792,0.875,0.743
 3,KP_gentamicin.csv,Klebsiella pneumoniae,gentamicin,485,275,210,162,92,70,GBC,0.956,0.953,0.959
 4,KP_imipenem.csv,Klebsiella pneumoniae,imipenem,443,151,292,148,50,98,DT,0.88,0.884,0.877
 5,KP_ertapenem.csv,Klebsiella pneumoniae,ertapenem,522,154,368,175,51,124,ABC,0.926,0.938,0.916
-6,EcS_meropenem.csv,E.coli and Shigella,meropenem,4362,4306,56,1454,1435,19,ABC,0.842,0.789,0.92
+6,EcS_meropenem.csv,E.coli and Shigella,meropenem,4362,4306,56,1454,1435,19,ETC,0.853,0.789,0.956
 7,EcS_ciprofloxacin.csv,E.coli and Shigella,ciprofloxacin,4503,3776,727,1501,1259,242,LogR,0.965,0.959,0.972
-8,EcS_amoxicillin-clavulanic acid.csv,E.coli and Shigella,amoxicillin-clavulanic acid,3696,3421,275,1232,1141,91,ETC,0.943,0.911,0.98
+8,EcS_amoxicillin-clavulanic acid.csv,E.coli and Shigella,amoxicillin-clavulanic acid,3696,3421,275,1232,1141,91,LogR,0.939,0.906,0.979
 9,EcS_gentamicin.csv,E.coli and Shigella,gentamicin,4397,3853,544,1466,1285,181,LDA,0.973,0.963,0.983
-10,EcS_imipenem.csv,E.coli and Shigella,imipenem,2139,2093,46,713,698,15,LDA,0.882,0.833,0.951
-11,EcS_ertapenem.csv,E.coli and Shigella,ertapenem,2175,2096,79,726,700,26,GBC,0.829,0.75,0.991
+10,EcS_imipenem.csv,E.coli and Shigella,imipenem,2139,2093,46,713,698,15,GBC,0.898,0.833,0.996
+11,EcS_ertapenem.csv,E.coli and Shigella,ertapenem,2175,2096,79,726,700,26,BC,0.862,0.788,0.992
 12,EcS_azithromycin.csv,E.coli and Shigella,azithromycin,2489,2462,27,830,821,9,GBC,0.92,0.943,0.899
 13,SE_ciprofloxacin.csv,Salmonella enterica,ciprofloxacin,6357,6029,328,2120,2010,110,ABC,0.993,0.991,0.995
-14,SE_amoxicillin-clavulanic acid.csv,Salmonella enterica,amoxicillin-clavulanic acid,5979,5323,656,1994,1775,219,GBC,0.986,0.979,0.993
+14,SE_amoxicillin-clavulanic acid.csv,Salmonella enterica,amoxicillin-clavulanic acid,5979,5323,656,1994,1775,219,GBC,0.987,0.979,0.995
 15,SE_gentamicin.csv,Salmonella enterica,gentamicin,6296,5674,622,2099,1892,207,SVM,0.957,0.953,0.961
 16,SE_azithromycin.csv,Salmonella enterica,azithromycin,4377,4371,6,1459,1457,2,DT,0.833,0.75,1.0
-17,AB_meropenem.csv,Acinetobacter baumannii,meropenem,504,259,245,168,86,82,GBC,0.946,0.945,0.953
+17,AB_meropenem.csv,Acinetobacter baumannii,meropenem,504,259,245,168,86,82,SVM,0.94,0.939,0.948
 18,AB_ciprofloxacin.csv,Acinetobacter baumannii,ciprofloxacin,802,178,624,268,59,209,LogR,0.995,0.992,0.998
 19,AB_gentamicin.csv,Acinetobacter baumannii,gentamicin,786,160,626,263,54,209,ABC,0.959,0.963,0.956
 20,AB_imipenem.csv,Acinetobacter baumannii,imipenem,801,518,283,267,173,94,ABC,0.951,0.951,0.951
