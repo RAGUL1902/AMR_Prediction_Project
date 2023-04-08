@@ -1,25 +1,58 @@
 index,Dataset Name,Bacteria Name,Bacteria Short Name,Antibiotic Name,Number of Rows,Number of columns,Resistant isolates count,Susceptible isolates count
-0,KP_meropenem.csv,Klebsiella pneumoniae,KP,meropenem,682,366,418,264
-1,KP_ciprofloxacin.csv,Klebsiella pneumoniae,KP,ciprofloxacin,649,366,452,197
-2,KP_amoxicillin-clavulanic acid.csv,Klebsiella pneumoniae,KP,amoxicillin-clavulanic acid,333,276,315,18
-3,KP_gentamicin.csv,Klebsiella pneumoniae,KP,gentamicin,647,365,280,367
-4,KP_imipenem.csv,Klebsiella pneumoniae,KP,imipenem,591,354,390,201
-5,KP_ertapenem.csv,Klebsiella pneumoniae,KP,ertapenem,697,372,492,205
-6,EcS_meropenem.csv,E.coli and Shigella,EcS,meropenem,5816,370,75,5741
-7,EcS_ciprofloxacin.csv,E.coli and Shigella,EcS,ciprofloxacin,6004,373,969,5035
-8,EcS_amoxicillin-clavulanic acid.csv,E.coli and Shigella,EcS,amoxicillin-clavulanic acid,4928,294,366,4562
-9,EcS_gentamicin.csv,E.coli and Shigella,EcS,gentamicin,5863,373,725,5138
-10,EcS_imipenem.csv,E.coli and Shigella,EcS,imipenem,2852,302,61,2791
-11,EcS_ertapenem.csv,E.coli and Shigella,EcS,ertapenem,2901,300,105,2796
-12,EcS_azithromycin.csv,E.coli and Shigella,EcS,azithromycin,3319,241,36,3283
-13,SE_ciprofloxacin.csv,Salmonella enterica,SE,ciprofloxacin,8477,209,438,8039
-14,SE_amoxicillin-clavulanic acid.csv,Salmonella enterica,SE,amoxicillin-clavulanic acid,7973,207,875,7098
-15,SE_gentamicin.csv,Salmonella enterica,SE,gentamicin,8395,216,829,7566
-16,SE_azithromycin.csv,Salmonella enterica,SE,azithromycin,5836,198,8,5828
-17,AB_meropenem.csv,Acinetobacter baumannii,AB,meropenem,672,287,327,345
-18,AB_ciprofloxacin.csv,Acinetobacter baumannii,AB,ciprofloxacin,1070,312,833,237
-19,AB_gentamicin.csv,Acinetobacter baumannii,AB,gentamicin,1049,310,835,214
-20,AB_imipenem.csv,Acinetobacter baumannii,AB,imipenem,1068,315,377,691
-21,CJ_ciprofloxacin.csv,Campylobacter jejuni,CJ,ciprofloxacin,3498,76,729,2769
-22,CJ_gentamicin.csv,Campylobacter jejuni,CJ,gentamicin,3491,74,30,3461
-23,CJ_azithromycin.csv,Campylobacter jejuni,CJ,azithromycin,3328,69,76,3252
+0,KP_amikacin.csv,Klebsiella pneumoniae,KP,amikacin,591,360,123,468
+1,KP_cefepime.csv,Klebsiella pneumoniae,KP,cefepime,604,361,425,179
+2,KP_cefotaxime.csv,Klebsiella pneumoniae,KP,cefotaxime,585,352,518,67
+3,KP_ceftazidime.csv,Klebsiella pneumoniae,KP,ceftazidime,622,357,532,90
+4,KP_ceftriaxone.csv,Klebsiella pneumoniae,KP,ceftriaxone,627,366,551,76
+5,KP_cefuroxime.csv,Klebsiella pneumoniae,KP,cefuroxime,112,195,80,32
+6,KP_doxycycline.csv,Klebsiella pneumoniae,KP,doxycycline,42,93,12,30
+7,KP_levofloxacin.csv,Klebsiella pneumoniae,KP,levofloxacin,586,352,403,183
+8,KP_moxifloxacin.csv,Klebsiella pneumoniae,KP,moxifloxacin,100,187,42,58
+9,KP_tetracycline.csv,Klebsiella pneumoniae,KP,tetracycline,470,338,228,242
+10,KP_tobramycin.csv,Klebsiella pneumoniae,KP,tobramycin,565,346,385,180
+11,KP_meropenem.csv,Klebsiella pneumoniae,KP,meropenem,682,366,418,264
+12,KP_ciprofloxacin.csv,Klebsiella pneumoniae,KP,ciprofloxacin,649,366,452,197
+13,KP_amoxicillin-clavulanic acid.csv,Klebsiella pneumoniae,KP,amoxicillin-clavulanic acid,333,276,315,18
+14,KP_gentamicin.csv,Klebsiella pneumoniae,KP,gentamicin,647,365,280,367
+15,KP_imipenem.csv,Klebsiella pneumoniae,KP,imipenem,591,354,390,201
+16,KP_ertapenem.csv,Klebsiella pneumoniae,KP,ertapenem,697,372,492,205
+17,EcS_amikacin.csv,E.coli and Shigella,EcS,amikacin,2954,314,47,2907
+18,EcS_cefepime.csv,E.coli and Shigella,EcS,cefepime,2972,313,559,2413
+19,EcS_cefotaxime.csv,E.coli and Shigella,EcS,cefotaxime,829,268,692,137
+20,EcS_ceftazidime.csv,E.coli and Shigella,EcS,ceftazidime,3035,311,809,2226
+21,EcS_ceftriaxone.csv,E.coli and Shigella,EcS,ceftriaxone,5621,355,810,4811
+22,EcS_levofloxacin.csv,E.coli and Shigella,EcS,levofloxacin,2600,268,662,1938
+23,EcS_moxifloxacin.csv,E.coli and Shigella,EcS,moxifloxacin,53,87,37,16
+24,EcS_tetracycline.csv,E.coli and Shigella,EcS,tetracycline,5683,353,2305,3378
+25,EcS_tobramycin.csv,E.coli and Shigella,EcS,tobramycin,2368,255,193,2175
+26,EcS_meropenem.csv,E.coli and Shigella,EcS,meropenem,5816,370,75,5741
+27,EcS_ciprofloxacin.csv,E.coli and Shigella,EcS,ciprofloxacin,6004,373,969,5035
+28,EcS_amoxicillin-clavulanic acid.csv,E.coli and Shigella,EcS,amoxicillin-clavulanic acid,4928,294,366,4562
+29,EcS_gentamicin.csv,E.coli and Shigella,EcS,gentamicin,5863,373,725,5138
+30,EcS_imipenem.csv,E.coli and Shigella,EcS,imipenem,2852,302,61,2791
+31,EcS_ertapenem.csv,E.coli and Shigella,EcS,ertapenem,2901,300,105,2796
+32,EcS_azithromycin.csv,E.coli and Shigella,EcS,azithromycin,3319,241,36,3283
+33,SE_ceftriaxone.csv,Salmonella enterica,SE,ceftriaxone,8598,221,1109,7489
+34,SE_tetracycline.csv,Salmonella enterica,SE,tetracycline,8636,220,4408,4228
+35,SE_ciprofloxacin.csv,Salmonella enterica,SE,ciprofloxacin,8477,209,438,8039
+36,SE_amoxicillin-clavulanic acid.csv,Salmonella enterica,SE,amoxicillin-clavulanic acid,7973,207,875,7098
+37,SE_gentamicin.csv,Salmonella enterica,SE,gentamicin,8395,216,829,7566
+38,AB_amikacin.csv,Acinetobacter baumannii,AB,amikacin,1023,304,457,566
+39,AB_cefepime.csv,Acinetobacter baumannii,AB,cefepime,352,255,208,144
+40,AB_cefotaxime.csv,Acinetobacter baumannii,AB,cefotaxime,638,207,610,28
+41,AB_ceftazidime.csv,Acinetobacter baumannii,AB,ceftazidime,949,300,705,244
+42,AB_ceftriaxone.csv,Acinetobacter baumannii,AB,ceftriaxone,791,246,722,69
+43,AB_levofloxacin.csv,Acinetobacter baumannii,AB,levofloxacin,723,255,555,168
+44,AB_moxifloxacin.csv,Acinetobacter baumannii,AB,moxifloxacin,83,97,58,25
+45,AB_tetracycline.csv,Acinetobacter baumannii,AB,tetracycline,796,248,561,235
+46,AB_tobramycin.csv,Acinetobacter baumannii,AB,tobramycin,796,248,519,277
+47,AB_meropenem.csv,Acinetobacter baumannii,AB,meropenem,672,287,327,345
+48,AB_ciprofloxacin.csv,Acinetobacter baumannii,AB,ciprofloxacin,1070,312,833,237
+49,AB_gentamicin.csv,Acinetobacter baumannii,AB,gentamicin,1049,310,835,214
+50,AB_imipenem.csv,Acinetobacter baumannii,AB,imipenem,1068,315,377,691
+51,CJ_clindamycin.csv,Campylobacter jejuni,CJ,clindamycin,3328,69,107,3221
+52,CJ_erythromycin.csv,Campylobacter jejuni,CJ,erythromycin,3498,76,82,3416
+53,CJ_tetracycline.csv,Campylobacter jejuni,CJ,tetracycline,3497,76,1689,1808
+54,CJ_ciprofloxacin.csv,Campylobacter jejuni,CJ,ciprofloxacin,3498,76,729,2769
+55,CJ_gentamicin.csv,Campylobacter jejuni,CJ,gentamicin,3491,74,30,3461
+56,CJ_azithromycin.csv,Campylobacter jejuni,CJ,azithromycin,3328,69,76,3252
